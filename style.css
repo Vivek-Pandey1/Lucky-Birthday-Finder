@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap");
+
+:root {
+  --primary-dark: #851bf7;
+  --primary-light: #fee9ff;
+}
+
+html {
+  background-color: #851bf7;
+  background-image: linear-gradient(
+    to bottom right,
+    #851bf7,
+    #714dfe,
+    #6469ff,
+    #617ffc,
+    #6b92f5,
+    #82a0f3,
+    #98aef0
+  );
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--primary-light);
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+
+
+.container {
+  width: 350px;
+  margin: 5rem auto;
+  font-size: 1.5rem;
+}
+h1,
+#output-box {
+  text-align: center;
+  margin: 1rem;
+}
+img{
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 0px auto;
+    
+
+}
+input,
+label {
+  display: block;
+}
+
+input {
+  
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  margin-bottom: 0.8rem;
+  border-radius: 0.8rem;
+  border: 2px solid #6469ff;
+}
+
+#check-number {
+  display: block;
+  margin: 10px auto;
+  background-color: #5f64fb;
+  color: var(--primary-light);
+  border: 2px solid var(--primary-light);
+  border-radius: 0.5rem;
+  font-weight: 800;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+#check-number:hover {
+  background-color: #474dff;
+  text-decoration: underline;
+}
+
+#check-number:active {
+  background-color: #474dff;
+  box-shadow: 0 5px #474dff;
+  transform: translateY(4px);
+}
